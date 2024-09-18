@@ -40,8 +40,8 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
-      accent: indigo
+      primary: pink
+      accent: pink
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -49,8 +49,8 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: deep purple
+      primary: pink
+      accent: pink
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
