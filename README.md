@@ -13,7 +13,7 @@
   | :----: | -------------------------------------------------- |
   | 💡     | Best practice or practical tips                    |
   | ❗     | An important limitation, challenge or an exception |
-  | 📝     | Common exam area                                   |
+  | 📝     | Common exam area                                   | 
 
 ## Content
 
