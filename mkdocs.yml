@@ -1,4 +1,5 @@
 site_name: CSSLP-IN-BULLET-POINTS
+site_url: https://michelleamesquita.github.io/csslp-notes/
 
 nav:
   - 'Home': 'README.md'
