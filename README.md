@@ -4,7 +4,7 @@
 
 - This repo contains study notes for Certified Secure Software Lifecycle Professional (CSSLP) exam.
 - Good luck & enjoy studying! ☕
-- Contributions of any kind are welcome!
+- Contributions of any kind are welcome! 
 
 ## Symbols
 
