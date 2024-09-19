@@ -4,6 +4,8 @@
 
 ### Software Qualification (Acceptance) Testing
 
+- determine if delivery criteria have been met
+
 - customer determines if software meets acceptance criteria
 - assess contract, standard, and legal reqs under both normal and abnormal conditions
 - **cumulative failure profile**

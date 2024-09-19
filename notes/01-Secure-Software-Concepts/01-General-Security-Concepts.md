@@ -210,13 +210,14 @@ pretty common for active directory
 
 #### Bell-LaPadula Confidentiality Model
 
-1. Two principles
+1. Three principles
    1. Simple Security Rule - in order to see something, you have to be authorized
       1. Used to preserve confidentiality - e.g. subject with medium clearance can't ready information with high sensitivity, only medium sensitivity
       2. No-read-up
    2. \* property (star property)
       1. No-write-down
       2. Subjects can only write to an object if the object has equal or higher classification - e.g. medium clearance can only write to medium sensitivity and above
+   3. Mandatory access control
 
 #### Take-Grant Model
 
@@ -233,6 +234,8 @@ pretty common for active directory
 - Depending on type of information, can be just as important or more important than confidentiality. e.g. stock prices (public but integrity is crucial)
 
 #### Biba Integrity Model
+
+- no write-up, no read-down
 
 - Preserves information integrity
 - Integrity levels separate permissions
@@ -327,9 +330,14 @@ Includes mother nature :)
 3. Highly structured threat - organized crime, crimeware
 4. Nation-state threat
    1. Advanced persistent threat (APT) - multiple methods to penetrate and then live undetected
+   2. APT - stealthy and judicious nature of attack , use blended methods
 5. Insider vs outsider
 
 ### Threat Landscape Shift
 
 - Around 2005 - criminalization of cyberspace allowing monetization
 - Market for exploits
+
+### SBOM (software bill of material)
+
+- detailed document of what is the software

@@ -82,6 +82,8 @@
 
 ## Control Identification and Prioritization
 
+- it envolves to evaluate risk and select appropriate controls to minimize impact
+
 - prioritize enterprise security controls - it is more efficient (eliminates duplicate efforts)
 - use security of existing protocols (HTTPS, SSH)
 
@@ -96,3 +98,7 @@
 ## Design and Architecture Technical Review
 
 - is the SDL achieving the desired objectives?
+
+## Security Functions
+
+- it's a part of acceptance of the product

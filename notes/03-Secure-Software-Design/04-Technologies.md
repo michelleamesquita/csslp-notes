@@ -69,6 +69,7 @@
 
 ## Data Loss Prevention
 
+- filter and react to traffic that meets profile parameters 
 - protect against exfiltration of data
 - look for specific traffic (size, destination, data elements, etc)
 - attackers often use encryption to make it difficult to view what data is being stolen
@@ -117,7 +118,7 @@
 
 ### Code Signing
 
-- digital signature
+- digital signature (assure secure patch deployment)
 - verify author, integrity, etc
 - mature technology
 
@@ -184,6 +185,8 @@
 - JRE contains JVM and standard libs
 
 ### Compiler Switches
+
+- are command line arguments that modify the behavior of the compiler in compilation process
 
 - manage memory, stack protection, exception handling, etc
 - security team should define compiler switch options for use in SDLC

@@ -82,6 +82,8 @@
   - what is their documented ability to adopt good software engineering practices?
   - do they employ trustworthy subcontractors?
 
+  - assurance cases: claims to security respect
+
 #### Assuring a black box: COTS
 
 - need mutually agreed upon approach between customer/supplier to determine which vendors can be trusted in a supply chain
@@ -143,3 +145,9 @@ Security Tradeoffs
 - software authenticity requires controls to ensure non-repudiation of origin
 
 ## Supplier Transitioning
+
+- focus on interface level. it controls passing from one entity to another
+
+## Delphi ranking
+
+- exercise to involve team with experts and not-experts to judge level of risk 

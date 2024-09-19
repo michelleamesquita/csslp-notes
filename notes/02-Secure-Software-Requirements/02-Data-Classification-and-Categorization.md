@@ -2,6 +2,9 @@
 
 ## Data Classification
 
+- align protection and asset value associated with data
+- it's a risk management tool 
+
 types of classification:
 
 - state
@@ -139,3 +142,7 @@ primary purposes of disposal:
 2. compliance
 
 Legal hold data is not subject to normal disposal procedures
+
+### Data agregation
+
+- ensure data integrity and accuracy 

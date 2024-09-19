@@ -175,7 +175,7 @@
 - **Input validation**
 - **Secure logging & auditing**
 - **Session management**
-- **Trusted/Untrusted APIs and libraries**
+- **Trusted/Untrusted APIs and libraries** : Attacks to API can be mitigated with Analisys of attack surface and threat model
 - **Type safety**
 - **Resource management**
 - **Secure configuration management**
@@ -261,6 +261,8 @@
 - **Bug tracking**
 - **Risk scoring**
   - CVSS
+  - understand the severity error
+  - assign priorities for defect remediation
 
 ### 5.7 Secure Test Data
 

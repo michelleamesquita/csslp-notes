@@ -1,5 +1,8 @@
 # Certified Secure Software Lifecycle Professional in bullet points ✨
 
+<img height="180em" src="https://c.tenor.com/tsHH9KP36akAAAAC/anime-sakura-kinomoto.gif"/>
+
+
 
 - This repo contains study notes for Certified Secure Software Lifecycle Professional (CSSLP) exam.
 - Good luck & enjoy studying! ☕

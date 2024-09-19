@@ -29,6 +29,8 @@
 
 ## Memory Management
 
+- ASLR (address space layout randomization) is used to defend aggainst attacks by breaking memory localy: local attacks
+
 - shared responsibility between app and OS
 - managed code applications (.NET, Java) handle memory management
 
@@ -88,7 +90,13 @@ Exam tips:
 
 - controlling concurrency (access to shared objects/race conditions)
 - tokenization for sensitive data
+- the actual handling of an out-of-range calculation is best performed by exception handling on
+the range value itself.
 
 ## Learning from Past Mistakes
 
 - security team should regularly update security reqs while considering errors from other companies
+
+## RASP
+
+- mitigate attacks in real-time

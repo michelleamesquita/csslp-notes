@@ -324,6 +324,7 @@ Using some kind of process-based lifecycle results in greater security
 - rates process maturity on a 1-5 scale
 - Three primary areas: product/service dvlpmnt, service establishment/mgmt, product/service acquisition
 - **framework for business process improvement**: improving operational processes
+- A&A (ASSESSMENT & Authorization) process, code review, data backup improve operational process
 
 ##### Process Maturity Levels 📝
 
@@ -420,3 +421,4 @@ Terms:
 ### Contractual Terms and SLAs
 
 - should include references to security ctrls/standards
+- standards, security controls and performance expected to be implemented

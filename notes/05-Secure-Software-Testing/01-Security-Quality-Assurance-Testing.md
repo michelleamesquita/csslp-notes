@@ -128,6 +128,10 @@ quality = fitness for use according to requirements
 ### Bug Bar
 
 - set minimum level of quality for security at beginning of project
+- prevent certain well-defined defects from goind forward 
+- it's necessary to prioritaze remediation work
+- all bugs can be sources of compromise 
+- improve utilization of security remediation
 
 ## Attack Surface Validation
 
