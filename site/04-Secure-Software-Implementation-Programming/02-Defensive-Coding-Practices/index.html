@@ -806,6 +806,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#rasp" class="md-nav__link">
+    RASP
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1305,6 +1312,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#rasp" class="md-nav__link">
+    RASP
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1353,6 +1367,9 @@
 <li>securing config files is an important design decision</li>
 </ul>
 <h2 id="memory-management">Memory Management</h2>
+<ul>
+<li>ASLR (address space layout randomization) is used to defend aggainst attacks by breaking memory localy: local attacks</li>
+</ul>
 <ul>
 <li>shared responsibility between app and OS</li>
 <li>managed code applications (.NET, Java) handle memory management</li>
@@ -1413,10 +1430,16 @@
 <ul>
 <li>controlling concurrency (access to shared objects/race conditions)</li>
 <li>tokenization for sensitive data</li>
+<li>the actual handling of an out-of-range calculation is best performed by exception handling on
+the range value itself.</li>
 </ul>
 <h2 id="learning-from-past-mistakes">Learning from Past Mistakes</h2>
 <ul>
 <li>security team should regularly update security reqs while considering errors from other companies</li>
+</ul>
+<h2 id="rasp">RASP</h2>
+<ul>
+<li>mitigate attacks in real-time</li>
 </ul>
 
 
