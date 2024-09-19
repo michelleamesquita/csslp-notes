@@ -13,7 +13,7 @@
   - Initial framework included:
     - Inventory of systems
     - Categorize information and systems according to risk level
-    - security controls
+    - security controls (compesation, corretive and preventive)
     - Certification/accreditation of systems (risk assessment and security plans)
     - Training
 - Information Security Automation Program
@@ -69,6 +69,8 @@ Applies to PIN Entry Devices (PEDs)
 ## Legal Issues
 
 ### Intellectual Property
+
+- software developers need to ensure compliance with software licensing agreements. by understanding the terms, they can avoid legal issues 
 
 1. Patents
    1. Exclusive right for a specified time
@@ -405,7 +407,7 @@ Four pillars:
 
 Terms:
 
-- Commercial off-the-shelf (COTS)
+- Commercial off-the-shelf (COTS) - it's readly avaiable for purchase
 - Government off-the-shelf (GOTS)
 
 ### Build vs buy

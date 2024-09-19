@@ -1,5 +1,7 @@
 # Design Processes
 
+- it involves system policy, tools, procedures and integration 
+
 ## Attack Surface Evaluation
 
 - includes code, input fields, protocols, interfaces, files, and services
@@ -101,4 +103,4 @@
 
 ## Security Functions
 
-- it's a part of acceptance of the product
+- it's a part of acceptance of the product. its imporant to contract is confirmed as fullfiled

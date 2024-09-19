@@ -34,6 +34,9 @@
 
 ### Bug tracking
 
+- score bugs: bug tracking is a mensure level that indicates bug needs to be fixed prior to delivery
+- it ensures that bug will get fixed 
+
 - sometimes, bugs can be exploited and result in a potential security bug
 - 📝 DREAD (1-10 scale)
   - Risk = Impact \* Probability

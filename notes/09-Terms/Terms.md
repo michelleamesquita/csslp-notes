@@ -77,6 +77,8 @@ Building rules into ACLs. Examples include time-of-day or network restrictions.
 
 ### Attribute-based Access Control
 
+- technique relies on set of rules to determine the object will be granted
+
 Grant access based on attributes associated with the subject.
 
 ### Simple Security Rule

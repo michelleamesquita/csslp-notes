@@ -4,6 +4,8 @@
 
 ## Supplier risk assessment
 
+- outsourcing decision depends of the supplier
+
 - **purpose**: identify and maintain appropriate set of risk controls within supply chain
 - 📝 **contents**: specific threats to org's supply chain, likelihood of occurrence, impact if realized
 

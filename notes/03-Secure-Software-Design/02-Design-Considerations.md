@@ -102,6 +102,8 @@
 
 ### Psychological Acceptability
 
+- it includes userfriendly interfaces and implementing security measures to protect the app 
+
 - users are key to system and security
 - if security obstructs the user and user disagrees, user will find a workaround
 - ensure abnormal system behavior is comprehensible to the user (i.e. don't say, "contact your sysadmin")

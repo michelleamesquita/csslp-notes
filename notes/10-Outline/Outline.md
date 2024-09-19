@@ -58,6 +58,8 @@
   - deployment
   - systemic qualities
 
+  - performance, security , scalability ,usability and maintainance 
+
 ### 2.2 Identify and Analyze Compliance Requirements
 
 - **FISMA**
@@ -100,6 +102,8 @@
   - not intended for all subject-object relationships
 
 ### 2.6 Develop Security Requirement Traceability Matrix (STRM)
+
+- it is used to identify the relationship between: security requirements, design and implementation components
 
 - document relationships between security requirements, controls, and test/verification efforts
 
@@ -182,12 +186,12 @@
 - **Tokenizing**
 - **Isolation**
 - **Cryptography**
-- **Access control**
+- **Access control** : it's a simple security state: you have to be authorized to view an object
 - **Processor micro-architecture security extensions**
 
 ### 4.2 Analyze Code for Security Risks
 
-- **Secure code reuse**
+- **Secure code reuse** - it can increase attack surface of software
 - **Vulnerability databases/lists**
 - **Static application security testing**
 - **Dynamic application security testing**
@@ -273,6 +277,8 @@
 
 ## 6. Secure Software Lifecycle Management
 
+- operation phase begins when software is release from development
+
 ### 6.1 Secure configuration and version control
 
 ### 6.2 Define strategy and roadmap
@@ -331,6 +337,8 @@
 
 ### 7.5 Perform post-deployment security testing
 
+- Configuration managment is after deployment and post-release assurance
+
 ### 7.6 Obtain security approval to operate
 
 ### 7.7 Perform information security continuous monitoring (ISCM)
@@ -384,3 +392,15 @@
 ### 8.4 Ensure supplier security requirements in teh acquisition process
 
 ### 8.5 Support contractual requirements
+
+### 8.6 Security Evaluation
+
+- It evaluates integrations process and individual components 
+
+### 8.7 Risk Governance
+
+- it's the sum of executive actions to managing risk
+
+### 8.8 Risk
+
+- contract is a specific area of the risk that can have potential punitive consequences 

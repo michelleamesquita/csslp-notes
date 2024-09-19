@@ -124,9 +124,13 @@
 
 ## Database Security
 
+- database protection: define type of protections, level of protection based on risk
+- encryption to rest data
+- database access: PAM - Privilege access management - it limits access to database based on privilege rights 
+
 - capabilities include those below as well as
   - stored procedures - access to specific elements based on rules
-  - backup and replication
+  - backup and replication : backup needs to maintain configuration, code and database to protect database
 
 ### Encryption
 

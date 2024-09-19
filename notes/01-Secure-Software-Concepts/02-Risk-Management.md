@@ -2,6 +2,8 @@
 
 - **assess the impact if an adverse event were to happen decide what could be done to control that impact as deemed necessary**
 
+- 4 main elements: assessment, analysis, mitigation, ongoing monitoring
+
 Well formed risk statement includes:
 
 1. asset
@@ -23,6 +25,7 @@ Systematic risk
 
 ### Business risk
 
+- Business risks envolve strategic decisions and market flutuation, while technical risk envolve potential vulnerabilities in software or hardware
 - operation of a business as a business
 
 Examples:

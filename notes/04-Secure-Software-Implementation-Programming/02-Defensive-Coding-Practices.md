@@ -69,6 +69,8 @@
 
 ### Defensive Coding
 
+- input validation, exception handling
+
 Foundational:
 
 - attack surface reduction

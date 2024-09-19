@@ -41,6 +41,10 @@
 
 ## Software Maintenance Process
 
+- it manages: problem determination and change control reporting. it verified if a problem exists before initiating a change request
+
+- maintenance team is responsible to manage upgrade products, releasing, patching and comunication to customers 
+
 - provide cost-effective modifications and support for all software in org's portfolio
 - ad hoc services for org's stakeholders
 
@@ -62,6 +66,8 @@
 - reacting to unforeseen events add extra challenges because mitigation steps have not been planned in advance
 
 #### Monitoring and incident identification
+
+- monitoring operations is functioning and incident response
 
 - initiated when a _potentially_ harmful event occurs
 - purpose of incident identification: distinguish between vulnerability in code, exploit of software, and user error

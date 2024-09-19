@@ -37,6 +37,8 @@ Identity Requirements:
 - identity mechanism
 - mgmt of identities, incl. reaffirmations
 
+- managing authentication credentials: generate, sincronization, reset, revogation, storage
+
 Authentication Requirements:
 
 - method of authentication
@@ -62,6 +64,7 @@ Authentication Requirements:
 
 #### Discretionary access control DAC
 
+- user accounts and object owner definies security access 
 - owner of object determines access levels
 - ACLs (access control lists)
 
@@ -83,6 +86,8 @@ Authentication Requirements:
 - e.g. if a patient has a certain attribute (is receiving certain treatment), that determines which doctors/staff can access
 
 ### Auditing
+
+- acceptance of audit is based on contract
 
 #### risk based issues
 

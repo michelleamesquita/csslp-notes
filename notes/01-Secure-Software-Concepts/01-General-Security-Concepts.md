@@ -19,7 +19,7 @@ Although different, they are not necessarily contradictory - but they all requir
 
 - **Protect data from unauthorized alteration**
 - e.g. Read-only, Read-and-write, write-only, delete access, etc
-- Integrity contributes to a system's **stability** and **reliability** as well as the **authenticity** of data
+- Integrity contributes to a system's **stability** and **reliability** as well as the **authenticity** of data ➡️ hash values (used in digital signatures) and nonrepudiation helps in authencity
 
 #### Availability
 
@@ -282,6 +282,7 @@ Example:
 
 - Use cases for normal and abnormal use
   - **Very important to security to understand use cases and misuse cases**
+  - Misuse case uses brainstorming and experts teams to create 
 
 #### Assurance Models
 

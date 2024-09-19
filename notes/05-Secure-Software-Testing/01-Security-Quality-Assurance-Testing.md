@@ -72,6 +72,10 @@ quality = fitness for use according to requirements
 - **stress testing**: performance under overload conditions
 - **Recoverability**: app's ability to restore itself to expected functionality after security is breached/bypassed
 
+### Enviromental Testing
+
+- all boundiries are identified and all errors with multiple modules are identified
+
 ### Regression Testing
 
 ## Security Testing
