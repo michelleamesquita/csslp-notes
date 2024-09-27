@@ -1,6 +1,8 @@
 # Supply Chain and Software Acquisition
 
+- security is a function inside the software
 - avg four levels in supply chain
+- customer, supplier, integrator
 
 ## Supplier risk assessment
 
@@ -66,6 +68,8 @@
 - agreement between owner (licensor) and user (licensee) for payment (fee/royalty)
 
 #### Code escrow
+
+- ensure availability of the software despite unforeseen circunstance
 
 - form of protection for the customer
 - copy of code is given to a neutral third party (escrow agent)

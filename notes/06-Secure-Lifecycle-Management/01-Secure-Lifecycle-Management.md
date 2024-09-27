@@ -10,7 +10,7 @@
 - assess contract, standard, and legal reqs under both normal and abnormal conditions
 - **cumulative failure profile**
   - plot cumulative failures vs suitable time base
-  - most appropriately applied during acceptance phase
+  - most appropriately applied during acceptance phase (the purpose in lifecycle is to determinate if the product or service has contract)
   - negative slope indicates increasing reliability
 
 ### Qualification Testing Plan
@@ -96,6 +96,10 @@ Evaluation process should answer two questions
 
 ### Validation and Verification
 
+- two generic forms for that: managerical and technical 
+- check if software complies with regulation
+
+- third party assurance
 - also apply to all stages of software lifecycle
 - activities are documented in the software validation and verification plan (SVVP)
 - **validation**: are we building the correct product? (i.e. meets user reqs)

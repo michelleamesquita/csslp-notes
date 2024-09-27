@@ -55,6 +55,8 @@ Although different, they are not necessarily contradictory - but they all requir
 
 #### Accounting (Auditing)
 
+- it supports decision making
+
 - **Accounting is a means of measuring activity, auditing is the verification of what actual happened and allows management to observe in a nonpartisan manner**
 - Accounting can be done in IT systems by logging crucial activity as it occurs
 - Accounting is needed when activity of specific data elements is crucial enough that it may be audited at a later date and time
@@ -94,8 +96,11 @@ Although different, they are not necessarily contradictory - but they all requir
 
 #### Configuration Management
 
+- developer and customer
 - Configuration should be protected from unauthorized changes
 - e.g. separation of duties between production/non-prod personnel
+- consistense in performance,functional and fisical atributes in the system
+- ration control over change process
 
 ### Secure Design Tenets
 
@@ -180,6 +185,8 @@ No one single piece should be able to cause the whole system to fail
 
 #### DAC - discretionary access control
 
+- it created by user to determine the permission to access to their own resources. its not so granular tha RBAC
+
 - most common
 - originated in military
 - **restrict based on identity of subjects/groups they belong to**
@@ -189,6 +196,9 @@ No one single piece should be able to cause the whole system to fail
 - **Weakness**: security is optional, owner has to define access for potentially a plethora of objects
 
 #### RBAC - role-based access control
+
+- its the best to data provisioning (can limit access to data)
+- it provides most granular control over user  by defining access based on roles, functions
 
 pretty common for active directory
 
@@ -330,7 +340,7 @@ Includes mother nature :)
 2. Structured threat - specific mission, time and resources
 3. Highly structured threat - organized crime, crimeware
 4. Nation-state threat
-   1. Advanced persistent threat (APT) - multiple methods to penetrate and then live undetected
+   1. Advanced persistent threat (APT) - multiple methods to penetrate and then live undetected. it is uded to class of threat by human and non-human threat agent
    2. APT - stealthy and judicious nature of attack , use blended methods
 5. Insider vs outsider
 

@@ -61,13 +61,17 @@
 
 ### Least Privilege
 
+- restricting user authority to only what is need to perform a task. its different than separaton of duties, because user cannot perform specific task without multiple users. 
 - natural set of defenses when unexpected things happen
 
 ### Separation of Duties
 
 - useful when multiple conditions must be met
+- separation of each role, ex: dividing critical tasks among individuals group, with each having a portion of overall responsability
 
 ### Defense in Depth
+
+- multiple layers of security control (firewall, intrusion detection, access control, segmentation)
 
 - multiple overlapping defenses, dissimilar in nature (e.g. encryption and ACLs)
 - one of the oldest security principles
@@ -76,6 +80,7 @@
 
 ### Fail Safe
 
+- exception handler -> first principle of saltzer and schroder
 - what happens when an element fails?
 - degrade gracefully and return to normal through the shortest path
 
@@ -94,8 +99,12 @@
 
 - open communication
 - accessible and understandable designs
+- kerschoff principal
 
 ### Least Common Mechanism
+
+- should minimize share components, funcionalities, and dependencies to reduce the impact
+- not recreate mechanisms 
 
 - reusing existing components can create pathways between users/processes
 - determine balance between reuse and separation

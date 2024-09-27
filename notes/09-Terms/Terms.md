@@ -12,6 +12,7 @@ Programs and users (subjects) should only have the bare minimum rights and privi
 
 ### Separation of Duties
 
+- to prevent of sharing info 
 More than one person needs to be involved for any given task so no single person can abuse the system
 
 ### Defense in Depth

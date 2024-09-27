@@ -14,7 +14,8 @@
 - **Authentication**
 - **Authorization**
 - **Accountability**
-- **Nonrepudiation**
+- **Nonrepudiation** 
+ - denying a previous action with an object   
 
 ### 1.2 Security Design Principles
 
@@ -57,7 +58,6 @@
   - operational
   - deployment
   - systemic qualities
-
   - performance, security , scalability ,usability and maintainance 
 
 ### 2.2 Identify and Analyze Compliance Requirements
@@ -88,7 +88,7 @@
 
 ### 2.4 Identify and Analyze Privacy Requirements
 
-- **Data anonymization**
+- **Data anonymization**:remove personal identity info and replace with unique identifier
 - **User consent**
 - **Disposition**
   - right to be forgotten
@@ -96,6 +96,8 @@
 - **Cross borders**
 
 ### 2.5 Develop Misuse and Abuse Cases
+
+- it helps to find vulnerability and identify points of failure
 
 - **Use cases**
   - helpful for clarifying complex/confusing/ambiguous situations
@@ -179,14 +181,14 @@
 - **Input validation**
 - **Secure logging & auditing**
 - **Session management**
-- **Trusted/Untrusted APIs and libraries** : Attacks to API can be mitigated with Analisys of attack surface and threat model
+- **Trusted/Untrusted APIs and libraries** : Attacks to API can be mitigated with Analisys of attack surface and threat model. It is a problem to architectural and design, because can expends attack surface
 - **Type safety**
 - **Resource management**
 - **Secure configuration management**
-- **Tokenizing**
+- **Tokenizing** : method to obfuscate data to prevent unauthorized access
 - **Isolation**
 - **Cryptography**
-- **Access control** : it's a simple security state: you have to be authorized to view an object
+- **Access control** : it's a simple security state: you have to be authorized to view an object.action is performed in object
 - **Processor micro-architecture security extensions**
 
 ### 4.2 Analyze Code for Security Risks
@@ -224,14 +226,14 @@
 - **Attack surface validation**
 - **Penetration tests**
 - **Fuzzing**
-- **Scanning**
+- **Scanning** --> automated enumeration test
 - **Simulation**
 - **Failure**
   - break testing
   - fault injection: introducing faults to see how software behaves. Test error handling code paths
 - **Cryptographic validation**
 - **Regression tests**
-- **Integration tests**
+- **Integration tests** --> test interface between modules
 - **Continuous**
   - synthetic transactions: write code to mimic user behavior using a browser
   - real-user monitoring: collect data based on actual user data (e.g. Google Analytics)
@@ -280,6 +282,8 @@
 - operation phase begins when software is release from development
 
 ### 6.1 Secure configuration and version control
+
+- its important to automated transparent test
 
 ### 6.2 Define strategy and roadmap
 
@@ -351,6 +355,10 @@
 
 ### 7.8 Support incident response
 
+- firts thing: determine the nature of the incident
+
+- **strategically planned***. team with variety of skill is better
+
 - **Root cause analysis**
 - **Incident triage**
 - **Forensics**
@@ -384,7 +392,7 @@
 
 - **Secure transfer**
 - **System sharing/interconnections**
-- **Code repository security**
+- **Code repository security** --> its important to intelectual property
 - **Build environment security**
 - **Cryptographically-hashed, digitally-signed components**
 - **Right to audit**
@@ -404,3 +412,217 @@
 ### 8.8 Risk
 
 - contract is a specific area of the risk that can have potential punitive consequences 
+
+### 8.9 EULA
+
+- the first propose of end-user licence agreement is clearfy the permited users and restriction to software 
+
+### 9.0 Errors
+
+- flaw is error in design, behavour anomaly is operational issue and vulnerability is bug that can me manipulated in Operational System
+
+### 9.1 Obfuscation
+
+- its a security measure to eliminates vulnerability that can be present in code
+
+### 9.2 WAF
+
+- it protects against known vulnerabilities and common attacks
+
+### 9.3 Flow
+
+- moviment of information across system 
+
+### 9.4 Memory Management Routine
+
+- garbage collection and memory allocation (allocation, deallocation, cleaning up)
+
+### 9.5 ASSET (automated security self-evaluation)
+
+- its a framework, quantitative. it automates the process of completing security system self assessment to NIST. it focuses risk in various aspects (threat, vulns,secure posture)
+
+### 9.6 OWASP and CWE, SANS top 25
+
+- focus on identifing common software vulnerabilities
+
+### 9.7 Prioritizing the mitigation of security vulnerabilities based on test
+
+- considerer context, potentital impact, exploitability and risk to prioritize
+
+### 9.8 Estabilish environment for test allows
+
+- interoperability of artifacts
+
+### 9.9 Capable development process
+
+- training and awareness
+
+### 10.0 Software contract
+
+- it is legal basis to communicate functions required and all necessary terms and conditions for acceptance 
+
+### 10.1 Contract-based plan 
+
+- code-level tests have been performed and documented
+
+### 10.2 SAST
+
+- focus on identifying vulnerabilities and secure weakness in the code
+
+### 10.3 RFP (request for proposal)
+
+- comunicates about statement of function required. its sent to all bidders for a formal response
+
+### 10.4 Code-walk though/code review
+
+- it serves to check code and find cryptographic functions, libs call depreceated and logic bombs
+
+### 10.5 Cyclometic complexity
+
+- it mesuares of the number of independent code path in program, in code review
+
+### 10.6 SCADA (supervisory control and data acquisition)
+
+- it important to have security protection to internet
+
+### 10.7 External obligation
+
+- statutory, regulatory and contractual obligation
+
+### 10.8 Risk management
+
+- likehood(probability) and impact
+
+### 10.9 SIEM
+
+- purpose: improving acuracy and efficiency of log analysis 
+
+### 10.10 Management risk
+
+- do nothing, mitigate, transfer, remidiate
+- its quantitative with test, and qualitative with reviews
+
+### 10.11 qualitative assessment
+
+- its broder scope,priorizing the scope
+
+### 11.0 Destructive test
+
+- envolves analysing software vulnerabilities by gradually building them until breaks , then identyfing weak points
+
+### 11.1 Activies in incident responde plan
+
+- triage, forensics,remeadiation and root cause analysis
+
+### 11.2 Secure development
+
+- all elements of the software are constructed and operate securely
+
+### 11.3 TCB e TCM
+
+- TCB (Computing base): hardware,software and firmeware that ensure security in trusted computing
+- TCM (platform module): chip-based provides hardware-level encryption for secure data , like encryption keys
+
+### 11.4 Impact of the risk
+
+- systematic of unsystematic
+
+### 11.5 Audit of vendor security policy
+
+- verify with the vendor the aderence to relevant security standards and regulation
+
+### 11.6 Acceptance criterea 
+
+- based on : test, audit and review
+
+### 11.7 Mearure effectiveness of security controls
+
+- KPI
+
+### 11.8 Security accreditation
+
+- formal declaration that envolves risk acceptance and sign-off by design authority
+
+### 11.9 Security authorization
+
+- refers to official management decision to allow the operation and acceptance risk
+
+### 11.10 Security assessment
+
+- envolves to evaluate the security controls, if they are implemented correctly and operating as expected
+
+### 11.11 Security verification
+
+- evaluates the implementation of security controls, through test and examination
+
+### 12.0 Buffer overflow
+
+- its when buffer memory is exceed and causes malicious attack
+
+### 12.1 Stack overflow
+
+- address (ret) points to memory address wrong
+
+### 12.2 Heap overflow
+
+- its a corruption in heap memory space
+
+### 12.3 API
+
+- weakness: 3third party because can be simple to code
+
+### 12.4 Atack surface in the code
+
+- is any point in the system that can be subject to unauthorized access
+
+### 12.4 Software configuration Management
+
+- includes documentation to all components, software build , version
+
+### 12.5 EOL
+
+- END of life -> remove credentials
+
+### 12.6 Cryptographic risk
+
+- broken algorithm , missing encryption of sensitive data
+
+### 12.7 Architecture n tiered
+
+- facilitates security because separates functionalities
+
+### 12.8 cve
+
+- enumerate software vulnerabilities
+
+### 12.9 input and sanitization
+
+- input validates data is correct and sanitization protects against malicious input
+
+### 12.10 secure software attributes
+
+- reliability,resiliency and recoverability 
+
+### 13.0 security objectives
+
+- legal and contract obligation and corporate standards and objectives
+
+### 13.1 kerkhoff principal 
+
+- about secrecy of a key rather than algorthim
+
+### 13.2 object
+
+- interacts with the system
+
+### 13.3 n-tier architecure
+
+- used to distrbute processing task among network devices while providing scalable and fault-tolerant architecture
+
+### 13.4 description test case
+
+- doesn't have business objective. just test conditions,input requirements and test case identifier
+
+### 13.5 supply chain
+
+- document: component tree

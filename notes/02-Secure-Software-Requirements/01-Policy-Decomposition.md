@@ -21,6 +21,7 @@ Regulations and government directives are also sources of security requirements
 - who is authorized to alter what data
 - mechanism to detect errors and enforce
 - business requirements with respect to data collection, transfer, storage, and use
+- example of integrity violation:sql inj
 
 ### Availability
 

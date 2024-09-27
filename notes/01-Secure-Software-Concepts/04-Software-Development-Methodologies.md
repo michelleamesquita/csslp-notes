@@ -49,6 +49,8 @@
 
 ### Threat modeling
 
+- objectives: prevent data, protect intellectual property and high availability 
+
 - basically an ARA
 - best performed during design phase
 - focused on how data moves through app
@@ -69,11 +71,15 @@
 
 ### Security Reviews
 
+- assurance of the software development process
+
 - audit process to verify functioning as desired
   - use at key places (between stages in SDL)
 - purpose: **NOT to test for security**, but to ensure steps are being done properly
 
 ### Mitigations
+
+- examples: server-side input validation,output validation
 
 Standard Techniques:
 
@@ -201,6 +207,8 @@ Standard Techniques:
 - static program checkers to maintain code standards
 
 ### Verification
+
+- examination the activies that assure software process and product
 
 - known and potential vulns
 - review attack surface: does it match design

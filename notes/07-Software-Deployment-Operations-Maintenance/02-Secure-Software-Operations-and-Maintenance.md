@@ -30,6 +30,8 @@
 
 #### Customer support
 
+- its important to software process with manage communication with costumer and receive change requests
+
 - operations provides advice and product support to customers as needed
   - can also include scheduled training
 - each request and actions taken should be recorded as part of config mgmt process
@@ -40,6 +42,8 @@
 - should identify and monitor potential risks in performance
 
 ## Software Maintenance Process
+
+- change controls need: specific of the change, testing specification and list of components. dont need the costumer approves
 
 - it manages: problem determination and change control reporting. it verified if a problem exists before initiating a change request
 
@@ -139,7 +143,13 @@
 
 ## Secure Software Disposal
 
+- safely terminate the existence os a system or a software entity
+
 - old systems retain information even after disposed of
   - need to ensure information is secured
 - software/system can only be retired at request of owner
 - 📝 end-of-life policies should include criteria, notice of hardware/software being discontinued/replaced, duration of support for tech difficulties from date of sale and how long after EOL is published
+
+## Developers
+
+- primary mitigation: body of knowledge code and development toolbox

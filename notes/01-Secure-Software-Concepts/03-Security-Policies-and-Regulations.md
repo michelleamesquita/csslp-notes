@@ -71,8 +71,12 @@ Applies to PIN Entry Devices (PEDs)
 ### Intellectual Property
 
 - software developers need to ensure compliance with software licensing agreements. by understanding the terms, they can avoid legal issues 
+- for software, its a intangible property
 
 1. Patents
+- inapropriate for abstract idea
+- tech inovation
+
    1. Exclusive right for a specified time
    2. protect rights in exchange for disclosure of invention
    3. Varies by country but in the US, invention must be new, useful, and non-obvious
@@ -252,6 +256,12 @@ Information Technology Laboratory (ITL)
 - communicate results of research/guidelines assoc with securing systems
 - incl. cryptographic protocols, security reqs, risk mgmt framework, governance, etc
 
+#### NIST SP 800-53 Security and privacy control for federal information systems and organization
+
+- focus in suply chain risk management
+
+
+
 #### Industry
 
 - SAFECode
@@ -340,6 +350,7 @@ Using some kind of process-based lifecycle results in greater security
 
 #### OCTAVE - Operationally Critical Threat, Asset, and Vulnerability Evauluation
 
+- its a qualitative analysis methodology that uses expert opnion and subjective judge to assess risk correct
 - tools, techniques, methods for risk-based infosec assmnt
 - Three phases: build asset-based threat profiles, identify infra vulns, dvlp security strategy
 
@@ -421,6 +432,10 @@ Terms:
 - has challenges due to geographic separation
 
 ### Contractual Terms and SLAs
+
+- objectives: maintanance (it envolves devops team and not development), performance, availability guarantees 
+- its important to define measurable and specific target metrics with penalties for service failed and has good communication 
+
 
 - should include references to security ctrls/standards
 - standards, security controls and performance expected to be implemented

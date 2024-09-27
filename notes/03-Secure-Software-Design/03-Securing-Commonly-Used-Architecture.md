@@ -33,7 +33,7 @@
   - discoverability
 - several technologies like WS
 - most SOA uses XML
-- SOAP and REST and two common protocols for messaging in the ESB (enterprise service bus)
+- SOAP and REST and two common protocols for messaging in the ESB (enterprise service bus) -> its an architecural procedement 
 
 ### Enterprise Service Bus
 

@@ -9,6 +9,9 @@ quality = fitness for use according to requirements
 - primary focuses: functionality, reliability, usability
 - other: efficiency, maintainability, portability
 
+### ISO 9001
+- Quality management 
+
 ### SSE-CMM
 
 - **systems security engineering capability maturity model (aka ISO/IEC 21827)**
@@ -38,6 +41,7 @@ quality = fitness for use according to requirements
 
 ## Functional Testing
 
+- identifying requirements that software is expect to perform, input test data. it envolves compliance with specifications and comparing actual with expected
 - assess functionality as expected by end user
 
 ### Steps
@@ -56,6 +60,9 @@ quality = fitness for use according to requirements
 - scalability
 
 ### Unit Testing
+
+- it caches error earlier and ensure each unit stands on it own
+- it test early detection
 
 - functional logic
 - understandable code
@@ -76,7 +83,8 @@ quality = fitness for use according to requirements
 
 - all boundiries are identified and all errors with multiple modules are identified
 
-### Regression Testing
+### Regression Testing 
+- dificult to choose better test portfolio
 
 ## Security Testing
 

@@ -1,13 +1,18 @@
 # Risk Management
 
+- identify and minimizing the impact of uncertain events
+- it envolves address security risk proactively and continuously throughout sdlc, such as in design phase 
+
 - **assess the impact if an adverse event were to happen decide what could be done to control that impact as deemed necessary**
 
 - 4 main elements: assessment, analysis, mitigation, ongoing monitoring
+- it depends of historical loss data (quantitative)
+- it depends of exper judgement and experience (qualitative)
 
 Well formed risk statement includes:
 
 1. asset
-2. threat
+2. threat (it can be single actor, structed,unstructed,insider,outside,likely or unlikely)
 3. vulnerability
 4. mitigation
 5. impact
@@ -53,7 +58,7 @@ Examples:
 
 ### Risk controls
 
-- 📝 best method for managing risk in software
+- 📝 best method for managing risk in software and physical security risks
 - 📝 Understanding environment and risk and applying controls should be owned by development team
 
 Three classes:
@@ -91,7 +96,7 @@ Examples:
 Examples:
 
 - logs
-- audits
+- audits (its important to confidence with legal requirements, delivery product is correct and complete, third-party assurance)
 - inventories
 
 #### Corrective
@@ -177,7 +182,7 @@ Example:
 - need to comply with laws and regulations, so GRC terms are used synonomously
 - **Compliance**: activities associated with external requirements (contractual, policy, strategic, industry, regulations, laws)
 - **Conformance**: activities associated with internal requirements (org policies/standards)
-- Compliance gets priority over conformance
+- Compliance gets priority over conformance , its expressed after requirements
 - many reasons, primary being penalties
 
 ### Legal

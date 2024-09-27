@@ -70,6 +70,8 @@
 
 ## Requirements Traceability Matrix (RTM)
 
+- relationship between controls, test/verification effort and security requirement
+
 - 📝 track and manage reqs and implementation details
 - document relationships b/w security reqs, controls, and test/verify efforts
 - predefined reqs for infra, security, data sources, etc for dev teams

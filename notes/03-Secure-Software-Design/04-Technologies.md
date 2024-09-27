@@ -4,6 +4,8 @@
 
 ### Identity Management (IDM) and Identity and Access Management (IAM)
 
+- IDM:manage the use of identity as a part of access control(provising, managing, deprovising identity)
+
 - policies, processes, technologies used to manage identity info
 - provisioning, mgmt, and deprovisioning of identities
 - a foundational element is protecting the secret yet making it usable
@@ -15,6 +17,7 @@
 - integrates with AuthZ system once successful
 - Federated ID systems allow connection to systems through known system (Facebook, Microsoft, etc)
   - Relying party (RP) and Identity Provider (IdP)
+  - IdP creates,manages,responsible for authenticating identity 
 
 ## Credential Management
 
@@ -22,8 +25,10 @@
 
 ### X.509 Credentials
 
+- its a certificate
 - manipulating certificates used to transfer asymmetric keys
 - IETF PKIX (public key infrastructure X.509)
+- PKI (public key infrastructure ) --> organization to communicate security, encrypted authentication, passing of digital certificates (authentication)
 
 ### Single Sign-On
 
@@ -117,6 +122,9 @@
 - malware requires a vuln in a software system
 
 ### Code Signing
+
+- it provides integrity and authentication
+- key cryptography
 
 - digital signature (assure secure patch deployment)
 - verify author, integrity, etc

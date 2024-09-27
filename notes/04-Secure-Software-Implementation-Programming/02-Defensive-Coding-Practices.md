@@ -4,19 +4,24 @@
 
 - early design decision
 - Declarative
+  - focus on defining security policy 
   - define the what
   - Security is defined in the deployment, not the code itself
   - Managed by ops team, not dev team
   - more flexible security
+  - sql 
 - Imperative
   - embedded into code
   - less flexible/portable/reusable but allows for greater granularity
+  - python, java
 
 ### Bootstrapping
 
 - startup process when computer/program starts
 
 ### Cryptographic Agility
+
+- easily change cripto funcionallity ,allowing easier international customization fo different country 
 
 - allow for changes in crypto function (e.g. algorithm) without changing code
 - also assists with international cryptography reqs
@@ -86,7 +91,7 @@ Other:
 - memory mgmt
 - exception handling
 - interface coding
-- managed code
+- managed code (it provides type-safe code,improved memory management)
 
 Exam tips:
 

@@ -48,6 +48,7 @@ Sensitivity categories
 
 ## Data ownership
 
+- it follows the business
 - data is not owned by a person, it is owned by the enterprise
 - data is assigned to people for stewardship/ownership for practical reasons
 - **ownership is business driven**
@@ -108,6 +109,8 @@ examples:
 - majority of data is unstructured
 
 ## Data lifecycle
+
+- when data is not necessary, they encrypt it and plance in archival storage in case that needs to use
 
 - cost of storing data is still a resource issue despite lower costs
 - must be managed from backup, business continuity, disaster recovery perspective
