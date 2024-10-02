@@ -626,3 +626,47 @@
 ### 13.5 supply chain
 
 - document: component tree
+
+### 13.4 FITSAF (federal information technology security assessment framework)
+
+- 1- policy, 2- implement policy, 3-procedement has been implemented,4-procedure was tested,5-asset has procedure and controls fully integrated
+
+### 13.5 configuration audit
+
+- is a component of configuration management, which involves checks to completeness accounting info and confirm all confg management policies are followed
+
+### 13.6 status account
+
+- supports the functional and physical atributes of software at the time. performs control of accounting to identify and mantain software integrity and traceability in development lofe cycle
+
+### 13.7 configuration control
+
+- is a set of process and approval stages to change configuration attributes and re-baseline them. change functional and physical attribute of software 
+
+### 13.8 configuration identification
+
+- is a product (hardware/software), are recorded in documentation and baseline(forces a formal change to be effected)
+
+### 13.9 documentation control
+
+- ensure system changes to be agreed upon before being implemented,its acurate
+
+### 13.10 disaster recovery
+
+- reliable actions to be taken before, during, after disruptive event that causes a considerable loss of information system resources.
+
+### 13.11 contigency plan
+
+- just when something is wrong
+
+### 13.12 C&A (certification and accredition) before prod
+
+- 1-initiation,2-security certification,3-security accrediation,4-continuous monitoring
+
+### 14.0 structed walk though test
+
+- table top exercises. identify area before conduct challenge exercises
+
+### 14.1 teardrop
+
+- its ip attack fragment  

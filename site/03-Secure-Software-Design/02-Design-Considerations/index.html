@@ -1609,13 +1609,18 @@
 </ul>
 <h3 id="least-privilege">Least Privilege</h3>
 <ul>
+<li>restricting user authority to only what is need to perform a task. its different than separaton of duties, because user cannot perform specific task without multiple users. </li>
 <li>natural set of defenses when unexpected things happen</li>
 </ul>
 <h3 id="separation-of-duties">Separation of Duties</h3>
 <ul>
 <li>useful when multiple conditions must be met</li>
+<li>separation of each role, ex: dividing critical tasks among individuals group, with each having a portion of overall responsability</li>
 </ul>
 <h3 id="defense-in-depth">Defense in Depth</h3>
+<ul>
+<li>multiple layers of security control (firewall, intrusion detection, access control, segmentation)</li>
+</ul>
 <ul>
 <li>multiple overlapping defenses, dissimilar in nature (e.g. encryption and ACLs)</li>
 <li>one of the oldest security principles</li>
@@ -1624,6 +1629,7 @@
 </ul>
 <h3 id="fail-safe">Fail Safe</h3>
 <ul>
+<li>exception handler -&gt; first principle of saltzer and schroder</li>
 <li>what happens when an element fails?</li>
 <li>degrade gracefully and return to normal through the shortest path</li>
 </ul>
@@ -1642,8 +1648,13 @@
 <ul>
 <li>open communication</li>
 <li>accessible and understandable designs</li>
+<li>kerschoff principal</li>
 </ul>
 <h3 id="least-common-mechanism">Least Common Mechanism</h3>
+<ul>
+<li>should minimize share components, funcionalities, and dependencies to reduce the impact</li>
+<li>not recreate mechanisms </li>
+</ul>
 <ul>
 <li>reusing existing components can create pathways between users/processes</li>
 <li>determine balance between reuse and separation</li>

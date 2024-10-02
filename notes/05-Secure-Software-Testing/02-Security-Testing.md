@@ -36,6 +36,7 @@ Steps:
 - test in a pre-prod env
 - all aspects (config, firewall, OS, load/performance, etc)
 - test configuration errors or data issues
+- its used for disaster recovery
 
 ## Testing for Failure
 
